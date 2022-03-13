@@ -21,18 +21,11 @@
             justify-content: center;
             .list__item{
                 list-style-type: none;
-                a{
-                    color: $colorLink;
-                    margin: 10px;
-                    text-decoration: none;
-                    font-weight: bold;
-                    font-size: 25px;
-                    transition: all 0.5s;
-                }
-                a:hover{
+                .item:hover{
                     color: $colorHoverLink;
                 }
                 #actual{
+                    @extend .item;
                     color: $colorActual;
                 }
             }

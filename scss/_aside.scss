@@ -11,10 +11,10 @@
     .aside__publicidad__img{
         width: 100%;
         margin: 15px 0 0 20px;
-        img{
-            width: 80%;
-            border-radius: 5px;
-            box-shadow: 4px 4px 4px 2px #6c757d;
+        .imagen-aside{
+            width: map-get($imagen-aside, width);
+            border-radius: map-get($imagen-aside, border-radius);
+            box-shadow: map-get($imagen-aside, box-shadow);
         }
     }
 }

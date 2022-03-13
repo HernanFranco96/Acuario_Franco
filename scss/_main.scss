@@ -10,6 +10,11 @@
         margin-bottom: 30px;
         border-right: 3px solid #343a40;
         flex-direction: column;
+        .inicio_titulo{
+            font-size: 30px;
+            margin: auto;
+            margin-bottom: 10px;
+        }
         .noticia__imagen{
             width: 95%;
             img{
@@ -24,7 +29,7 @@
             margin: 20px 0;
             flex-direction: column;
             .noticia__titulo{
-                font-size: 30px;
+                font-size: 25px;
                 margin-bottom: 10px;
             }
             .noticia__texto{
