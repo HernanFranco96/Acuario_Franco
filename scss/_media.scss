@@ -62,6 +62,18 @@
             margin-bottom: 10px;
         }
     }
+// CONTACTO.HTML
+    .formulario{
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px solid #343a40;   
+        .formulario__form{
+            width: 80%;
+            .input{
+                width: 100%;
+            }
+        }
+    }
 // ASIDE
     .aside{
         width: 100%;
@@ -167,6 +179,21 @@
         border: none;
         .galerias__articulos{
             width: 90%;
+        }
+    }
+// CONTACTO.HTML
+    .formulario{
+        border: none;
+        .formulario__form{
+            width: 90%;
+            .input{
+                input{
+                    width: 70%;
+                }
+            }
+            .btn-enviar{
+                width: 77%;
+            }
         }
     }
 // ASIDE
