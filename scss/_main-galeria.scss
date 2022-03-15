@@ -1,0 +1,34 @@
+
+.galerias{
+    width: 70%;
+    height: 740px;
+    border-right: 3px solid #343a40;
+    justify-content: space-around;
+    align-items: center;
+    .galerias__articulos{
+        width: 48%;
+        height: 500px;
+        border-radius: 10px;
+    }
+    button{
+        z-index: 100;
+        position: absolute;
+        margin: 30px 0 0 70px;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-size: cover;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px #6c757d;
+    }
+    h3{
+        position: absolute;
+        z-index: 100;
+        margin-left: 12%;
+        margin-top: -130px;
+        color: rgb(104, 212, 245);
+        font-size: 30px;
+    }
+}
